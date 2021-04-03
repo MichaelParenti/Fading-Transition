@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.question{
+    font-size: 2vw;
+    color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: linear 1s;
+}
+h2{
+    font-size: 1vw;
+}
+#next{
+    padding: 20px;
+    background: black;
+    color: teal;
+    outline: none;
+    border: inset 3px grey;
+}
+input{
+    background: teal;
+    color: black;
+    outline: none;
+    margin: 20px;
+}
+::placeholder{
+    color: black;
+}
+@keyframes identifier {
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes identifier2 {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
